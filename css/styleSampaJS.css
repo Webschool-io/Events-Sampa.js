@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700");
+body {
+  margin: 0 auto;
+}
+.atom-foto-palestrante {
+  width: 180px;
+  height: 180px;
+  background-color: #000030;
+}
+.atom-data-evento,
+.atom-titulo,
+.atom-nome-palestrante,
+.atom-area-palestrante,
+.atom-contato,
+.atom-contato-mensagem,
+.atom-botao {
+  font-size: 1.4rem;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  margin: 5px;
+}
+.atom-contato,
+.atom-contato-mensagem,
+.atom-botao {
+  margin: 10px auto;
+  width: 250px;
+  display: block;
+  text-align: left;
+  margin: 10px auto;
+}
+.atom-logo {
+  display: block;
+  width: 65%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.atom-another-logo {
+  height: auto;
+  max-height: 200px;
+}
+.atom-data-evento {
+  font-size: 2.4rem;
+  display: block;
+  margin: 0 auto;
+  color: #ffc900;
+  text-align: center;
+}
+.atom-titulo {
+  font-size: 1.8rem;
+  padding-left: 15px;
+}
+.atom-mapa {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+.atom-nome-palestrante {
+  font-size: 1.4rem;
+}
+.atom-area-palestrante {
+  font-size: 1rem;
+  color: #4d4d4d;
+}
+.atom-contato {
+  height: 35px;
+}
+.atom-contato-mensagem {
+  height: 200px;
+  resize: none;
+}
+.atom-botao {
+  text-align: center;
+}
+.molecule-palestrante {
+  text-align: center;
+  padding: 15px 5px;
+}
+.molecule-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.organism-header {
+  background-image: url("../img/bg-header.png");
+  background-size: 100%;
+}
+.organism-local {
+  width: 100%;
+}
+.organism-palestrantes {
+  width: 100%;
+  background-color: #ffc900;
+}
+.organism-patrocinadores,
+.organism-apoio {
+  width: 100%;
+}
+.organism-contato {
+  width: 100%;
+  background-color: #ffc900;
+}

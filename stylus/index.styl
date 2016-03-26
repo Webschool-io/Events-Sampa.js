@@ -1,0 +1,112 @@
+//out: ../css/styleSampaJS.css, compress: false
+//bosons
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700)
+
+body
+  margin 0 auto
+  
+$boson-img
+  width 180px
+  height 180px
+  background-color #000030
+  
+$boson-font-default
+  font-size 1.4rem
+  font-family: 'Oswald', sans-serif
+  text-decoration none
+  margin 5px
+  
+$boson-contato
+  margin 10px auto
+  width 250px
+  display block
+  text-align left
+  margin 10px auto
+
+//atomos
+.atom-logo
+  display block
+  width 65%
+  max-width 350px
+  margin 0 auto
+  
+.atom-another-logo
+  height auto
+  max-height  200px
+  
+.atom-data-evento
+  @extends $boson-font-default
+  font-size 2.4rem
+  display block
+  margin 0 auto
+  color #ffc900
+  text-align center
+
+.atom-titulo
+  @extends $boson-font-default
+  font-size 1.8rem
+  padding-left 15px
+
+.atom-mapa
+  width 100%
+  height 400px
+  display block
+  
+.atom-foto-palestrante
+  @extends $boson-img
+.atom-nome-palestrante
+  @extends $boson-font-default
+  font-size 1.4rem
+
+.atom-area-palestrante
+  @extends $boson-font-default
+  font-size 1rem
+  color #4d4d4d
+
+.atom-contato
+  @extends $boson-font-default
+  @extends $boson-contato
+  height 35px
+
+.atom-contato-mensagem
+  @extends $boson-font-default
+  @extends $boson-contato
+  height 200px
+  resize none
+.atom-botao
+  @extends $boson-font-default
+  @extends $boson-contato
+  text-align center
+  
+
+//moleculas
+.molecule-palestrante
+  text-align center
+  padding 15px 5px
+  
+.molecule-container
+  //flexbox
+  display flex
+  flex-flow row wrap
+  justify-content space-around
+  
+//organismos
+.organism-header
+  background-image url(../img/bg-header.png)
+  background-size 100%
+  
+.organism-local
+  width 100%
+
+.organism-palestrantes
+  width 100%
+  background-color #ffc900
+  
+.organism-patrocinadores
+  
+.organism-apoio
+  width 100%
+  
+.organism-contato
+  width 100%
+  background-color #ffc900
