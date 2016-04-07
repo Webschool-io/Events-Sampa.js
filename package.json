@@ -1,0 +1,27 @@
+{
+  "name": "sampajs-site",
+  "version": "1.0.0",
+  "description": "Site do sampa.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylus": "stylus -w stylus/index.styl -o css/styleSampaJS.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webschool-io/Events-Sampa.js.git"
+  },
+  "keywords": [
+    "evento",
+    "sampa.js",
+    "webschool",
+    "javascript",
+    "js"
+  ],
+  "author": "Suissa",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/Webschool-io/Events-Sampa.js/issues"
+  },
+  "homepage": "https://github.com/Webschool-io/Events-Sampa.js#readme"
+}
