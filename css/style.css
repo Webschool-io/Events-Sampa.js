@@ -81,7 +81,7 @@ body {
 .molecule-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 .organism-header {
   background-image: url("../img/bg-header.png");
