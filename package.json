@@ -23,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/Webschool-io/Events-Sampa.js/issues"
   },
-  "homepage": "https://github.com/Webschool-io/Events-Sampa.js#readme"
+  "homepage": "https://github.com/Webschool-io/Events-Sampa.js#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.4.0"
+  },
+  "devDependencies": {
+    "dateformat": "^1.0.12",
+    "gulp-util": "^3.0.7"
+  }
 }

@@ -4,18 +4,18 @@
 
 body
   margin 0 auto
-  
+
 $boson-img
   width 180px
   height 180px
   background-color #000030
-  
+
 $boson-font-default
   font-size 1.4rem
   font-family: 'Oswald', sans-serif
   text-decoration none
   margin 5px
-  
+
 $boson-contato
   margin 10px auto
   width 250px
@@ -29,11 +29,11 @@ $boson-contato
   width 65%
   max-width 350px
   margin 0 auto
-  
+
 .atom-another-logo
   height auto
   max-height  200px
-  
+
 .atom-data-evento
   @extends $boson-font-default
   font-size 2.4rem
@@ -52,7 +52,7 @@ $boson-contato
   height 400px
   display block
   margin 0 auto
-  
+
 .atom-foto-palestrante
   @extends $boson-img
 .atom-nome-palestrante
@@ -78,24 +78,26 @@ $boson-contato
   @extends $boson-font-default
   @extends $boson-contato
   text-align center
-  
+
 
 //moleculas
 .molecule-palestrante
   text-align center
   padding 15px 5px
-  
+  flex-grow 1
+  flex-basis 20%
+
 .molecule-container
   //flexbox
   display flex
   flex-flow row wrap
-  justify-content space-around
-  
+  justify-content center
+
 //organismos
 .organism-header
   background-image url(../img/bg-header.png)
   background-size 100%
-  
+
 .organism-local
   width 100%
 
